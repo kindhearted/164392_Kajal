@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+
+<beans>
+
+<!-- 
+	<bean id="customer" class="com.kajal.spring.question1.Customer" scope="singleton">
+		<property name="customerId"  value="101"></property>
+		<property name="customerName"  value="Kajal Kurhade"></property>
+		<property name="customerContact"  value="9876543210"></property>
+		<property name="customerAddress"  ref="address"></property>
+	</bean>
+	
+	<bean id="address" class="com.kajal.spring.question1.Address" scope="singleton">
+		<property name="street"  value="M.G.Road"></property>
+		<property name="city"  value="Mumbai"></property>
+		<property name="state"  value="Maharashtra"></property>
+		<property name="zip"  value="400101"></property>
+		<property name="country"  value="India"></property>
+	</bean>
+	 -->
+	 
+	<bean id="customer1" class="com.kajal.spring.question1.Customer" scope="singleton">
+		<constructor-arg value="102"></constructor-arg>
+		<constructor-arg value="Akshay Nalabe"></constructor-arg>
+		<constructor-arg value="1234567890"></constructor-arg>
+		<constructor-arg ref="address1"></constructor-arg>
+	</bean> 
+	
+	<bean id="address1" class="com.kajal.spring.question1.Address" scope="singleton">
+		<constructor-arg value="M.G.Road"></constructor-arg>
+		<constructor-arg value="Mumbai"></constructor-arg>
+		<constructor-arg value="Maharashtra"></constructor-arg>
+		<constructor-arg value="400101"></constructor-arg>
+		<constructor-arg value="India"></constructor-arg>
+	</bean> 
+
+</beans>

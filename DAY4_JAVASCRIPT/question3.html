@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<HTML>
+	<HEAD>
+		<script type="text/javascript">
+					var count=0;
+					var number = parseInt(prompt("Enter a Value", ""),2);
+					
+					do{
+					if (!isNaN(number))
+					{
+						
+							if(number>=1 && number<=30)		
+							{
+								document.write("<br /> Entered Number:",number,"<br />");
+							
+								for(i=0;i<number;i++)
+								{
+								document.write("*");
+								}
+								count++;
+							}
+							else
+							{
+							alert('number greater than 30!!!');
+							}
+							
+						
+					}
+					else
+					{
+							alert('not a number');
+							
+					}
+					
+					number = parseInt(prompt("Enter a Value", ""), 10);
+					if(count==3)
+					{
+					alert('completed 3 attempts!!!');
+					}
+					}while(count<3);
+					
+				
+		</script>
+		
+	</HEAD>
+		
+</HTML>

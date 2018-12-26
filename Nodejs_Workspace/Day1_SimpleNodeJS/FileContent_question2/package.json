@@ -1,0 +1,11 @@
+{
+  "name": "filecontent_question2",
+  "version": "1.0.0",
+  "description": "showing file content",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kajal",
+  "license": "ISC"
+}

@@ -1,0 +1,5 @@
+eclemma
+https://self-learning-java-tutorial.blogspot.com/2015/03/eclipse-eclemma-code-coverage-tool.html
+
+Checkstyle
+https://examples.javacodegeeks.com/enterprise-java/maven/apache-maven-checkstyle-plugin-tutorial/

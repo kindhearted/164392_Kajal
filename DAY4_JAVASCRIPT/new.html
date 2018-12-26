@@ -1,0 +1,99 @@
+ <!DOCTYPE html> 
+  <html> 
+  
+ 
+ <head> 
+ <title> Assignment 6 </title> 
+  </head> 
+ 
+ 
+  <body> 
+  
+ 
+  <table align="center" style="text-align:center"> 
+  <tr> 
+  <th colspan="2"><label id="bill">Enter Mark's Mass and Height </label></th> 
+  <th ><label id="tip" style="padding:0 0 0 20px">Enter John's's Mass and Height</label></th> 
+  </tr> 
+  
+ 
+  <tr> 
+  <td><label id="l1" for="">Mass</label></td> 
+  <td><input type="text" id="john_mass" required></td> 
+  <td><input type="text" id="mark_mass" required></td> 
+  </tr> 
+  
+ 
+  <tr> 
+  <td><label id="l2" for="">Height</label></td> 
+  <td><input type="text" id="john_height" required/></td> 
+  <td><input type="text" id="mark_height" required/></td> 
+  </tr> 
+  
+ 
+  
+ 
+  <tr> 
+  <td colspan=2 align="right"> <input type="submit" value="Check" onClick="return check()"></td>  
+  </tr> 
+  
+ 
+  </table> 
+  
+ 
+  
+ 
+  <script> 
+  function check() 
+  { 
+  	 
+  	 
+  	var john_obj={ 
+  			name:"John", 
+  			mass:0, 
+  			height:0, 
+  			bmi:0, 
+  			calc_bmi:function() 
+  				  { 
+  					this.bmi=(this.mass/(this.height*this.height)); 
+  					return this.bmi; 
+  				  } 
+  		     }; 
+  	var mark_obj={ 
+  			name:"Mark", 
+  			mass:0, 
+  			height:0, 
+  			bmi:0, 
+  			calc_bmi:function() 
+  				  { 
+  					this.bmi=(this.mass/(this.height*this.height)); 
+  					return (this.bmi); 
+  				  } 
+  		     }; 
+  	 
+   
+  	 john_obj.mass=parseInt(document.getElementById("john_mass").value); 
+  	 john_obj.height=parseFloat(document.getElementById("john_height").value); 
+   
+  	 mark_obj.mass=parseInt(document.getElementById("mark_mass").value); 
+ 	 mark_obj.height=parseFloat(document.getElementById("mark_height").value); 
+   
+  	console.log( john_obj.calc_bmi()+" "+mark_obj.calc_bmi()+" "+mark_obj.height+" "+john_obj.height); 
+ 		 
+  	if( john_obj.calc_bmi()>mark_obj.calc_bmi()) 
+ 	{ 
+ 		console.log("Is John's BMI is higher than Mark? true"); 
+ 	} 
+ 	else if(john_obj.calc_bmi()<mark_obj.calc_bmi())	 
+  		console.log("Is John's BMI is higher than Mark? false"); 
+ 	else 
+  		console.log("Is John's BMI is higher than Mark? equal"); 
+ 	  
+  		 
+  	return false; 
+  } 
+   
+   
+  </script> 
+  </body> 
+  </html> 

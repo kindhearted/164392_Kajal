@@ -1,0 +1,349 @@
+
+SQL> SELECT DISTINCT EMP.ENAME, EMP.SAL, DEPT.DNAME FROM EMP, DEPT
+  2  WHERE EMP.DEPTNO = DEPT.DEPTNO AND
+  3  SAL IN (SELECT MIN(SAL) FROM EMP);
+
+ENAME             SAL DNAME
+---------- ---------- --------------
+SMITH             800 RESEARCH
+
+
+SQL> SELECT DISTINCT DEPT.DEPTNO, MIN(EMP.SAL) FROM EMP, DEPT
+  2  WHERE EMP.DEPTNO = DEPT.DEPTNO
+  3  GROUP BY DEPT.DEPTNO
+  4  ORDER BY DEPT.DEPTNO;
+
+    DEPTNO MIN(EMP.SAL)
+---------- ------------
+        10         1300
+        20          800
+        30          950
+
+
+SQL> SELECT EMP.EMPNO, EMP.ENAME, EMP.JOB, EMP.SAL, EMP.DEPTNO, DEPT.DNAME FROM
+EMP, DEPT
+  2  WHERE EMP.DEPTNO = DEPT.DEPTNO
+  3  AND
+  4  EMP.JOB= 'CLERK';
+
+     EMPNO ENAME      JOB              SAL     DEPTNO DNAME
+---------- ---------- --------- ---------- ---------- --------------
+      7934 MILLER     CLERK           1300         10 ACCOUNTING
+      7876 ADAMS      CLERK           1100         20 RESEARCH
+      7369 SMITH      CLERK            800         20 RESEARCH
+      7900 JAMES      CLERK            950         30 SALES
+
+
+SQL> SELECT EMPNO, ENAME, JOB, MGR, HIREDATE, SAL, DEPT.DEPTNO FROM EMP, DEPT
+  2  WHERE DEPT.DEPTNO = EMP.DEPTNO AND
+  3  EMP.DEPTNO = (SELECT DEPTNO FROM EMP WHERE ENAME = 'FORD');
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL     DEPTNO
+---------- ---------- --------- ---------- --------- ---------- ----------
+      7369 SMITH      CLERK           7902 17-DEC-80        800         20
+      7566 JONES      MANAGER         7839 02-APR-81       2975         20
+      7788 SCOTT      ANALYST         7566 19-APR-87       3000         20
+      7876 ADAMS      CLERK           7788 23-MAY-87       1100         20
+      7902 FORD       ANALYST         7566 03-DEC-81       3000         20
+
+SQL> SELECT EMPNO, ENAME, JOB, MGR, HIREDATE, SAL, DEPT.DEPTNO FROM EMP, DEPT
+  2  WHERE DEPT.DEPTNO = EMP.DEPTNO AND
+  3  EMP.DEPTNO = (SELECT DEPTNO FROM EMP WHERE ENAME = 'WARD') AND
+  4  EMP.SAL > (SELECT SAL FROM EMP WHERE ENAME = 'MARTIN');
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL     DEPTNO
+---------- ---------- --------- ---------- --------- ---------- ----------
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600         30
+      7698 BLAKE      MANAGER         7839 01-MAY-81       2850         30
+      7844 TURNER     SALESMAN        7698 08-SEP-81       1500         30
+
+
+SQL> SELECT EMPNO, ENAME, EMP.DEPTNO, DEPT.DNAME, DEPT.LOC FROM EMP, DEPT
+  2  WHERE DEPT.DEPTNO = EMP.DEPTNO;
+
+     EMPNO ENAME          DEPTNO DNAME          LOC
+---------- ---------- ---------- -------------- -------------
+      7369 SMITH              20 RESEARCH       DALLAS
+      7499 ALLEN              30 SALES          CHICAGO
+      7521 WARD               30 SALES          CHICAGO
+      7566 JONES              20 RESEARCH       DALLAS
+      7654 MARTIN             30 SALES          CHICAGO
+      7698 BLAKE              30 SALES          CHICAGO
+      7782 CLARK              10 ACCOUNTING     NEW YORK
+      7788 SCOTT              20 RESEARCH       DALLAS
+      7839 KING               10 ACCOUNTING     NEW YORK
+      7844 TURNER             30 SALES          CHICAGO
+      7876 ADAMS              20 RESEARCH       DALLAS
+
+     EMPNO ENAME          DEPTNO DNAME          LOC
+---------- ---------- ---------- -------------- -------------
+      7900 JAMES              30 SALES          CHICAGO
+      7902 FORD               20 RESEARCH       DALLAS
+      7934 MILLER             10 ACCOUNTING     NEW YORK
+
+14 rows selected.
+
+
+
+SQL> SELECT EMP.DEPTNO, DEPT.DNAME, EMP.ENAME FROM EMP, DEPT
+  2  WHERE DEPT.DEPTNO = EMP.DEPTNO
+  3  ORDER BY EMP.DEPTNO;
+
+    DEPTNO DNAME          ENAME
+---------- -------------- ----------
+        10 ACCOUNTING     CLARK
+        10 ACCOUNTING     KING
+        10 ACCOUNTING     MILLER
+        20 RESEARCH       SMITH
+        20 RESEARCH       JONES
+        20 RESEARCH       SCOTT
+        20 RESEARCH       ADAMS
+        20 RESEARCH       FORD
+        30 SALES          ALLEN
+        30 SALES          WARD
+        30 SALES          MARTIN
+
+    DEPTNO DNAME          ENAME
+---------- -------------- ----------
+        30 SALES          BLAKE
+        30 SALES          TURNER
+        30 SALES          JAMES
+
+14 rows selected.
+
+
+
+SQL> SELECT EMP.ENAME, EMP.DEPTNO, DEPT.DNAME, DEPT.LOC FROM EMP, DEPT
+  2  WHERE DEPT.DEPTNO = EMP.DEPTNO AND
+  3  DEPT.LOC = 'NEW YORK';
+
+ENAME          DEPTNO DNAME          LOC
+---------- ---------- -------------- -------------
+CLARK              10 ACCOUNTING     NEW YORK
+KING               10 ACCOUNTING     NEW YORK
+MILLER             10 ACCOUNTING     NEW YORK
+
+
+
+
+SQL> SELECT ENAME, SAL, DNAME FROM EMP E INNER JOIN DEPT D ON(E.DEPTNO = D.DEPTN
+O)
+  2  WHERE SAL IN (SELECT MIN(SAL) FROM EMP GROUP BY DEPTNO);
+
+ENAME             SAL DNAME
+---------- ---------- --------------
+JAMES             950 SALES
+SMITH             800 RESEARCH
+MILLER           1300 ACCOUNTING
+
+
+SQL> SELECT EMPNO, JOB, MGR, SAL, DNAME FROM EMP E INNER JOIN DEPT D ON(E.DEPTNO
+ = D.DEPTNO)
+  2  WHERE SAL IN (SELECT MAX(SAL) FROM EMP GROUP BY DEPTNO);
+
+     EMPNO JOB              MGR        SAL DNAME
+---------- --------- ---------- ---------- --------------
+      7698 MANAGER         7839       2850 SALES
+      7902 ANALYST         7566       3000 RESEARCH
+      7788 ANALYST         7566       3000 RESEARCH
+      7839 PRESIDENT                  5000 ACCOUNTING
+
+
+SQL> SELECT B.ENAME AS BOSS, COUNT(*) AS SUBORDINATE FROM EMP E JOIN EMP B ON B.
+EMPNO=E.MGR
+  2  GROUP BY B.EMPNO,B.ENAME;
+
+BOSS       SUBORDINATE
+---------- -----------
+JONES                2
+CLARK                1
+KING                 3
+BLAKE                5
+FORD                 1
+SCOTT                1
+
+6 rows selected.
+
+
+SQL> SELECT DISTINCT E.ENAME AS EMPLOYEE, E.JOB AS DESIGNATION, E.SAL AS SALARY,
+ M.ENAME AS MANAGER, M.JOB AS DESIGNATION, M.SAL AS SALARY FROM EMP E INNER JOIN
+ EMP M ON E.MGR = M.EMPNO;
+
+EMPLOYEE   DESIGNATI     SALARY MANAGER    DESIGNATI     SALARY
+---------- --------- ---------- ---------- --------- ----------
+JAMES      CLERK            950 BLAKE      MANAGER         2850
+TURNER     SALESMAN        1500 BLAKE      MANAGER         2850
+ADAMS      CLERK           1100 SCOTT      ANALYST         3000
+ALLEN      SALESMAN        1600 BLAKE      MANAGER         2850
+MILLER     CLERK           1300 CLARK      MANAGER         2450
+WARD       SALESMAN        1250 BLAKE      MANAGER         2850
+SCOTT      ANALYST         3000 JONES      MANAGER         2975
+MARTIN     SALESMAN        1250 BLAKE      MANAGER         2850
+SMITH      CLERK            800 FORD       ANALYST         3000
+CLARK      MANAGER         2450 KING       PRESIDENT       5000
+BLAKE      MANAGER         2850 KING       PRESIDENT       5000
+
+EMPLOYEE   DESIGNATI     SALARY MANAGER    DESIGNATI     SALARY
+---------- --------- ---------- ---------- --------- ----------
+FORD       ANALYST         3000 JONES      MANAGER         2975
+JONES      MANAGER         2975 KING       PRESIDENT       5000
+
+13 rows selected.
+
+
+
+SQL> CREATE TABLE ODER (
+  2  ID NUMERIC(4) CONSTRAINT ID_ODER_PK PRIMARY KEY,
+  3  ORDER_DATE DATE,
+  4  ORDER_NUMBER NUMERIC(4)
+  5  );
+
+Table created.
+
+
+SQL> CREATE TABLE PRODUCT (
+  2  ID NUMERIC(4) CONSTRAINT ID_PRODUCT_PK PRIMARY KEY,
+  3  PRODUCTNAME VARCHAR(20)
+  4  );
+
+Table created.
+
+SQL> CREATE TABLE ORDER_ITEM (
+  2  ID NUMERIC(4) CONSTRAINT ID_ORDER_ITEM_PK PRIMARY KEY,
+  3  ORDERID NUMERIC(4) CONSTRAINT ID_ODER_FK REFERENCES ODER(ID),
+  4  PRODUCTID NUMERIC(4) CONSTRAINT ID_PRODUCT_FK REFERENCES PRODUCT(ID),
+  5  UNITPRICE NUMERIC(10,2),
+  6  QUANTITY NUMERIC(4)
+  7  );
+
+Table created.
+
+
+
+SQL> INSERT INTO ODER VALUES ( 01,'07-APR-2012',7369);
+
+1 row created.
+
+SQL> INSERT INTO ODER VALUES ( 02,'02-OCT-2011',7900);
+
+1 row created.
+
+SQL> INSERT INTO ODER VALUES ( 03,'23-NOV-2015',7934);
+
+1 row created.
+
+SQL> INSERT INTO PRODUCT VALUES (01,'EASY-TRADING');
+
+1 row created.
+
+SQL> INSERT INTO PRODUCT VALUES (02,'BANK-ANYWHERE');
+
+1 row created.
+
+SQL> INSERT INTO PRODUCT VALUES (03,'TRIP-MANAGER');
+
+1 row created.
+
+SQL> INSERT INTO ORDER_ITEM VALUES (01,01,01,20,800);
+
+1 row created.
+
+SQL> INSERT INTO ORDER_ITEM VALUES (02,02,02,30,950);
+
+1 row created.
+
+SQL> INSERT INTO ORDER_ITEM VALUES (03,03,03,10,1300);
+INSERT INTO ORDER_ITEM VALUES (03,03,03,10,1300)
+
+SQL> INSERT INTO ORDER_ITEM VALUES (03,03,03,10,1300);
+
+1 row created.
+
+
+
+
+SQL> SELECT ORDER_NUMBER AS ORDER_NO, ORDER_DATE, PRODUCTNAME, QUANTITY, UNITPRI
+CE FROM ODER, ORDER_ITEM, PRODUCT
+  2  WHERE ODER.ID=ORDER_ITEM.ORDERID AND
+  3  ORDER_ITEM.PRODUCTID = PRODUCT.ID;
+
+  ORDER_NO ORDER_DAT PRODUCTNAME            QUANTITY  UNITPRICE
+---------- --------- -------------------- ---------- ----------
+      7369 07-APR-12 EASY-TRADING                800         20
+      7900 02-OCT-11 BANK-ANYWHERE               950         30
+      7934 23-NOV-15 TRIP-MANAGER                130         10
+
+
+
+
+SQL> SELECT MIN(SAL) FROM EMP
+  2  WHERE SAL NOT IN (SELECT MIN(SAL) FROM EMP);
+
+  MIN(SAL)
+----------
+       950
+
+
+
+SQL> SELECT  *FROM
+  2   (
+  3      SELECT *FROM emp
+  4      ORDER BY Sal desc
+  5   )
+  6  WHERE rownum <= 3
+  7  ORDER BY Sal DESC ;
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM
+---------- ---------- --------- ---------- --------- ---------- ----------
+    DEPTNO
+----------
+      7839 KING       PRESIDENT            17-NOV-81       5000
+        10
+
+      7788 SCOTT      ANALYST         7566 19-APR-87       3000
+        20
+
+      7902 FORD       ANALYST         7566 03-DEC-81       3000
+        20
+
+
+SQL> SELECT DEPTNO
+  2  FROM EMP
+  3  WHERE DEPTNO IN (SELECT DEPTNO FROM EMP INTERSECT SELECT DEPTNO FROM DEPT);
+
+
+    DEPTNO
+----------
+        20
+        30
+        30
+        20
+        30
+        30
+        10
+        20
+        10
+        30
+        20
+
+    DEPTNO
+----------
+        30
+        20
+        10
+
+14 rows selected.
+
+
+
+SQL> SELECT DEPTNO, SUM(SAL) FROM EMP
+  2  WHERE (SELECT COUNT(*)
+  3  FROM Emp
+  4  ) > 2
+  5  GROUP BY DEPTNO;
+
+    DEPTNO   SUM(SAL)
+---------- ----------
+        30       9400
+        20      10875
+        10       8750

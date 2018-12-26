@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Question 5 </title>
+</head>
+
+<body>
+<form>
+<table align="center" style="text-align:center">
+<tr>
+<th colspan="2"><label id="bill">Restaurant Bill</label></th>
+<th colspan="2"><label id="tip">Restaurant Tip</label></th>
+</tr>
+
+<tr>
+<td><label id="l1" for="">Enter 1st Restaurant Bill</label></td>
+<td><input type="text" id="bill1" required></td>
+<td><label id="tip1"></label></td>
+</tr>
+
+<tr>
+<td><label id="l2" for="">Enter 2nd Restaurant Bill</label></td>
+<td><input type="text" id="bill2" required/></td>
+<td><label id="tip2"></label></td>
+</tr>
+
+<tr>
+<td><label id="l3" for="">Enter 3rd Restaurant Bill</label></td>
+<td><input type="text" id="bill3" required/></td>
+<td><label id="tip3"></label></td>
+</tr>
+
+<tr>
+<td colspan=2 align="right"> <input type="submit" value="Check Tip" onClick="return check()"></td> 
+</tr>
+
+</table>
+</form>
+
+<script>
+function check()
+{
+	
+	
+	var bill =new Array(3);
+	var tip =new Array(3);
+	 bill[0]=parseInt(document.getElementById("bill1").value);
+	 bill[1]=parseInt(document.getElementById("bill2").value);
+	 bill[2]=parseInt(document.getElementById("bill3").value);
+		
+	 tip[0]=calculateTip(bill[0]);
+	 tip[1]=calculateTip(bill[1]);
+	 tip[2]=calculateTip(bill[2]);
+	
+	document.getElementById("tip1").innerHTML=tip[0];
+	document.getElementById("tip2").innerHTML=tip[1];
+	document.getElementById("tip3").innerHTML=tip[2];
+		
+	return false;
+}
+function calculateTip(bill)
+{	
+ 	
+	if( bill<50 )
+	{
+		return bill*0.2;
+	}
+	else if(bill >= 50 && bill <= 200)	
+		return bill*0.15;
+	else
+		return bill*0.10;
+}
+</script>
+</body>
+</html>

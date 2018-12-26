@@ -1,0 +1,11 @@
+{
+  "name": "count_question5",
+  "version": "1.0.0",
+  "description": "frequency of word and printing count",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kajal",
+  "license": "ISC"
+}

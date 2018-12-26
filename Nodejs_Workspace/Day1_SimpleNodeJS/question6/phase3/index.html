@@ -1,0 +1,22 @@
+<html>
+   <head>
+      <title>MomentJS - Working Example</title>
+      <script type = "text/JavaScript" src = "https://MomentJS.com/downloads/moment.js"></script>
+      <style>
+         div {
+           <!-- border: solid 1px #ccc;-->
+            padding:10px;
+            font-family: "Segoe UI",Arial,sans-serif;
+            width: 50%;
+         }
+      </style>
+   </head>
+   <body>
+    <label style = "font-size:25px">Todays Date:</lable>
+      <div style = "font-size:25px" id = "todaysdate" ></div>
+      <script type = "text/JavaScript">
+         var a = moment().toString();
+         document.getElementById("todaysdate").innerHTML = a;
+      </script>
+   </body>
+</html>

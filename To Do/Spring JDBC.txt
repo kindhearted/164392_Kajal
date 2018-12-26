@@ -1,0 +1,9 @@
+Spring JDBC
+
+Reference link for reading
+
+https://docs.spring.io/spring/docs/5.0.0.BUILD-SNAPSHOT/spring-framework-reference/html/jdbc.html
+
+Video link
+
+https://www.youtube.com/watch?v=1WgsDP10iqw

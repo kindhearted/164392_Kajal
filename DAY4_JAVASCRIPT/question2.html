@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<HTML>
+	<HEAD>
+		<script type="text/javascript">
+		function myConvert()
+		{
+			var degreeValue = document.getElementById('txtvalue').value
+			if (!isNaN(degreeValue))
+				{
+				var result=(degreeValue-32)*(5/9)
+				
+				document.getElementById("txtvalue").value = result;
+                 
+				}
+			else
+				{
+					alert('not a number');
+				}
+		}
+		</script>
+		
+	</HEAD>
+	<body>
+	<form>
+	<h3>Converting degre F into degree C..</h3>
+	<input type="text" id="txtvalue" value="">
+	<input id="mybtn" type="button" value="Convert" onclick="myConvert()">
+	
+	
+	</form>
+	</body>
+</HTML>

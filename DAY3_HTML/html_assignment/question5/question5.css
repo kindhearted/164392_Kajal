@@ -1,0 +1,14 @@
+h1{ color:white;
+}
+table,th,td{ border: 1px grey;
+width:50%;
+text-align:center;
+border-style: dashed;
+border-color: grey;
+} 
+body{
+	background-image:url("aa.jpg");
+	background-repeat:no-repeat;
+	background-position:right-top;
+	
+}

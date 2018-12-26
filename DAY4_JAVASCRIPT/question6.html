@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Question 6 </title>
+</head>
+
+<body>
+
+<script>
+
+		var john={
+				name:"John j",
+				height:159,
+				weight:70,
+				check:function()
+				{
+				var bmi=this.weight / (this.height * this.height);
+				return bmi;
+				}
+		};
+		var mark={
+				name:"Mark M",
+				height:190,
+				weight:65,
+				check:function()
+				{
+				var mark_bmi = this.weight / (this.height * this.height);
+				return this.mark_bmi;
+				}
+		
+		};
+		
+		if(john.check()>mark.check())
+		{
+		consol.log("Is John's BMI is higher than Mark? true"); 
+		}
+		else if(john.check()<mark.check())
+		{
+		consol.log("Is John's BMI is higher than Mark? false"); 
+		}
+		else
+		{
+			consol.log("Is John's BMI is higher than Mark? equal"); 
+		}
+
+
+</script>
+</body>
+</html>

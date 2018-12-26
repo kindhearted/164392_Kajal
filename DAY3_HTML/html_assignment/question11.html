@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<title> Local Storage </title>
+
+</head>
+<body>
+
+<table align="center" border="1px" width="300px">
+<tr>
+<th colspan=2> Information </th>
+</tr>
+<tr>
+<th> Emp Name </th>
+<td> <input type="text" id="name"></td>
+</tr>
+
+<tr>
+<th> Emp Id </th>
+<td> <input type="text" id="eid"></td>
+</tr>
+
+<tr>
+<th> Emp Salary </th>
+<td> <input type="text" id="Salary"></td>
+</tr>
+
+<tr>
+<th> Emp Address </th>
+<td> <input type="text" id="addr"></td>
+</tr>
+
+<tr>
+<th> Emp Mob No </th>
+<td> <input type="text" id="mob"></td>
+</tr>
+
+<tr>
+<th> Emp City </th>
+<td> <input type="text" id="city"></td>
+</tr>
+
+<tr>
+<th> Emp Pin Code </th>
+<td> <input type="text" id="pincode"></td>
+</tr>
+
+<tr>
+<th> Emp Email </th>
+<td> <input type="text" id="email"></td>
+</tr>
+
+<tr>
+<td colspan=2 align="center">
+<input type="reset" value="Clear"> 
+<input type="submit" value="Store" onClick="store()"> 
+<input type="submit" value="Display" onClick="display()"> 
+</td>
+
+</tr>
+
+</table>
+
+<script>
+	var ename;
+	var eid;
+	var esalary;
+	var eaddr;
+	var emob;
+	var ecity;
+	var epincode;
+	var email;
+function display()
+{	//document.write("hii");
+	
+	if(typeof(Storage)!=="undefined")
+	{
+		ename.innerHTML = localStorage.name;
+		eid.innerHTML = localStorage.eid; 
+		salary.innerHTML = localStorage.salary;
+		addr.innerHTML = localStorage.addr;
+		mob.innerHTML = localStorage.mob;
+		city.innerHTML = localStorage.city; 
+		pincode.innerHTML = localStorage.pincode; 
+		email.innerHTML = localStorage.email;
+	}
+	else
+	document.write("Your browser not support local storage");
+}
+function store()
+{
+	 ename=document.getElementById("name").value;
+	 eid=document.getElementById("id1").value;
+	 esalary=document.getElementById("salary").value;
+	 eaddr=document.getElementById("addr").value;
+	 emob=document.getElementById("mob").value;
+	 ecity=document.getElementById("city").value;
+	 epincode=document.getElementById("pincode").value;
+	 email=document.getElementById("mail").value;
+	
+	if(typeof(Storage)!=="undefined")
+	{
+		localStorage.name = ename;
+		localStorage.id = eid;
+		localStorage.salary = esalary;
+		localStorage.addr = eaddr;
+		localStorage.mob = emob;
+		localStorage.city = ecity;
+		localStorage.pincode = epincode;
+		localStorage.mail = email;	
+	}
+	else
+	document.write("Your browser not support local storage");
+}
+</script>
+</body>
+</html>

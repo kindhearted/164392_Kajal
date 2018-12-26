@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Question 4 </title>
+</head>
+
+<body>
+<form>
+<table align="center">
+<tr>
+<th colspan="2"><label id="john">Enter John's Score</label></th>
+<th colspan="2"><label id="mike">Enter Mike's Score</label></th>
+</tr>
+
+<tr>
+<td><label id="l1" for="">Enter 1st score</label></td>
+<td><input type="text" id="score1" required></td>
+<td><input type="text" id="m_score1" required/></td>
+</tr>
+
+<tr>
+<td><label id="l2" for="">Enter 2nd score</label></td>
+<td><input type="text" id="score2" required/></td>
+<td><input type="text" id="m_score2" required/></td>
+</tr>
+
+<tr>
+<td><label id="l3" for="">Enter 3rd score</label></td>
+<td><input type="text" id="score3" required/></td>
+<td><input type="text" id="m_score3" required/></td>
+</tr>
+
+<tr>
+<td colspan=2 align="center"> <input type="submit" value="Check Winner" onClick="return check()"></td> 
+</tr>
+
+<tr>
+<td><label id="win">Winner</label></td>
+</tr>
+
+</table>
+</form>
+<script>
+function check()
+{
+	
+	//document.write("hii");
+	var j_sc =new Array(3);
+	var m_sc =new Array(3);
+	 j_sc[0]=parseInt(document.getElementById("score1").value);
+	 j_sc[1]=parseInt(document.getElementById("score2").value);
+	 j_sc[2]=parseInt(document.getElementById("score3").value);
+	 m_sc[0]=parseInt(document.getElementById("m_score1").value);
+	 m_sc[1]=parseInt(document.getElementById("m_score2").value);
+	 m_sc[2]=parseInt(document.getElementById("m_score3").value);
+	
+	var john_avg=(j_sc[0]+j_sc[1]+j_sc[2])/3;
+	var mike_avg=(m_sc[0]+m_sc[1]+m_sc[2])/3;
+	
+	if(john_avg==mike_avg)
+	{
+		document.getElementById("win").innerHTML="Match is draw";
+		console.log("Match is draw");
+	}
+	else if(john_avg>mike_avg)
+	{
+		document.getElementById("win").innerHTML="John is winner";
+		console.log("John is winner");
+	}
+	else{
+		document.getElementById("win").innerHTML="Mike is winner";
+		console.log("Mike is winner");
+	}
+	return false;
+}
+</script>
+</body>
+</html>

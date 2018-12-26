@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<HTML>
+	<HEAD>
+		<script type="text/javascript">
+		var marks_wt = parseInt(prompt("Enter a weight of Mark in kg:", ""),2);
+		var marks_ht = parseInt(prompt("Enter a height of Mark in meter:", ""),5);
+		var john_wt = parseInt(prompt("Enter a weight of John in kg:", ""),2);
+		var john_ht = parseInt(prompt("Enter a height of John in meter:", ""),5);
+		var marks_bmi= marks_wt / (marks_ht * marks_ht);
+		var john_bmi= john_wt  / (john_ht * john_ht);
+		var bol=marks_bmi>john_bmi;
+		if(marks_bmi!=john_bmi)
+			{
+			document.write("Is Mark's BMI is higher than John's? "+bol);	
+			}
+		else
+			document.write("Is Mark's BMI is higher than John's? "+"equal");	
+		
+	</HEAD>
+	<body>
+	
+	</body>
+</HTML>
