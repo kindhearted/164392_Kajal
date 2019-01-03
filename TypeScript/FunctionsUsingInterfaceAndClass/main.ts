@@ -1,4 +1,4 @@
-import todointerface from './todointerface';
+import {todointerface} from './todointerface';
 
 
 class TaskToDo{

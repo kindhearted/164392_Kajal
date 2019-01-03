@@ -4,4 +4,3 @@ export interface todointerface{
     listAllTasks();
     deleteTask(task:string);
 }
-export default todointerface;
