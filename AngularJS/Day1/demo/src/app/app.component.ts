@@ -7,11 +7,14 @@ import { User } from './address-card/user.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  
+  title:string='Web App';
+
   user:User;
     constructor(){
       this.user=new User();
-      this.user.name='Akshay Nalabe',
-      this.user.designation='Civil Engineer',
+      this.user.name='Kajal Kurhade',
+      this.user.title='Software Engineer',
       this.user.address='Katraj,Pune,Maharashtra',
       this.user.phone=['1234556789','987654321'];
     }

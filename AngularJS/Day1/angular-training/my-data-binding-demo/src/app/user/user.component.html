@@ -1,0 +1,28 @@
+	<h3>Display Data</h3>
+	<p>
+	  First Name: {{firstName}}
+	</p>
+	
+	<p>
+	  Last Name: {{lastName}}
+	</p>
+	
+	<hr>
+	<h3>Data Binding: One-way (Component -> View)</h3>
+	<p>
+	First Name: <input [value]="firstName" />
+	</p>
+	
+	<p>
+	Last Name: <input [value]="lastName" />
+	</p>
+ 	
+	<hr>
+	<h3>Data Binding: Two-way (Component <-> View)</h3>
+	 <p>
+	First Name: <input [(ngModel)]="firstName"/>
+	</p>
+	
+	<p>
+	Last Name: <input [(ngModel)]="lastName" />
+  </p> 

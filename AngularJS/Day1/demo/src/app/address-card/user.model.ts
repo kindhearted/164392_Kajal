@@ -1,6 +1,6 @@
 export class User{
 name:string;
-designation:string;
+title:string;
 address:string;
 phone:string[];
 
