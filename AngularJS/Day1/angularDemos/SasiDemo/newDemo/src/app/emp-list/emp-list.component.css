@@ -1,0 +1,9 @@
+table, th, td,thead,tbody {
+    border: 1px solid black;
+  }
+thead,tbody,tr:nth-child(even) {
+     text-align: center;
+     height: 50px;
+     vertical-align: center;
+     background-color: #f2f2f2;
+}

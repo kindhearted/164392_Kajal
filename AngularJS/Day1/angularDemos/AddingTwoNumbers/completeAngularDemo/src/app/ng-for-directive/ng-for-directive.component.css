@@ -1,0 +1,24 @@
+	.odd {  
+   	    background-color: rgba(0, 0, 255, 0.199);  
+      text-align:center;  
+  	    font-family: 'Times New Roman', Times, serif  
+ 	}  
+  	.even   
+   	{  
+       background-color: #0066ff;  
+      text-align: center;  
+      font-family:cursive  
+   	  
+  }  
+   	.first{  
+      background-color: # 6 b8dc0;  
+    text-align: center;  
+       font-family: 'Times New Roman', Times, serif  
+       }
+       .last {  
+       background-color: #ebd2d2;  
+       text-align : center;  
+     font-family: 'Times New Roman', Times, serif;  
+     font-size: 15px;  
+   	}
+    

@@ -1,0 +1,31 @@
+<body>  
+<!--Here we are using selector as directive to call (render) the child component(student-count.component.ts)-->  
+<!--Now using the property binding in selector tag we are passing data to input properties  
+present in child component(student-count.component.ts)  
+ex.[totalStudentsCount]="getTotalStudentsCount()"  
+   -->  
+<student-count [totalStudentsCount]="getTotalStudentsCount()"  [maleStudentsCount]="getMaleStudentsCount()" [femaleStudentsCount]="getFemaleStudentsCount()"> </student-count>  
+  <hr>  
+  <div class="container">  
+  <table class="table table-sm">  
+  <thead>  
+    <tr>  
+       <th scope="col">Id</th>  
+       <th scope="col">Name</th>  
+       <th scope="col">Address</th>  
+       <th scope="col">Gender</th>  
+    </tr>  
+  </thead>  
+  <tbody>  
+  <!--using *ngFor directive to iterate over student list-->  
+    <tr *ngFor="let student of students">  
+      <th scope="row">{{student.Id}}</th>  
+      <td>{{student.Name}}</td>  
+      <td>{{student.Address}}</td>  
+      <td>{{student.Gender}}</td>  
+    </tr>  
+  </tbody>  
+  </table>  
+  </div>  
+  </body>
+  

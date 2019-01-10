@@ -1,0 +1,35 @@
+<div>
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+  <hr>
+  <h1>OneWay Binding</h1>
+<input type="text" [value]="title"/>  
+<hr>
+<div>  
+  <h1>Two way binding Example</h1>  
+  Enter you Name:  <input [(ngModel)]="enterName"  />  
+  <br/><br/>  
+  <span> WelCome {{enterName}}  </span>  
+  </div>  
+  <hr>
+<div>
+  <app-add-function></app-add-function>
+  </div>
+  <hr>
+<h1>ToggleButton</h1>
+<app-toggle-button></app-toggle-button>
+<hr>
+<h1>CricketersData</h1>
+<app-ng-for-directive></app-ng-for-directive>
+<hr>
+<h1>Swith Case On DropdownList</h1>
+<app-ngswitch></app-ngswitch>
+<hr>
+<h1>ngStyle</h1>
+<app-ng-style></app-ng-style>
+<hr>
+<h1>ngStyleClass</h1>
+
+<app-ng-class-style></app-ng-class-style>

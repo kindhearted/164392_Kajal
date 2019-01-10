@@ -1,0 +1,20 @@
+<h4>Custom pipes in Angular 2 </h4>
+<div>
+	<h4>Title Case Pipe example</h4>
+    Hello, My name is {{name | titlecase}}
+</div>
+
+<br/>
+
+<div>
+	<h4>Bold Pipe example</h4>
+    Hello, My name is <span [outerHTML]="name | titlecase | bold"></span>
+</div>
+
+<div>
+	<h4>Limit word Pipe example</h4>
+    With no arg.: {{myText | limitword }} <br/>
+    Limit to 15 character: {{myText | limitword:15}} <br/>
+    Limit to 15 character with trail character: {{myText | limitword:15:'***'}} <br/>
+
+</div>

@@ -1,0 +1,30 @@
+{
+   "compilerOptions": {
+      // Specify ECMAScript target version
+      "target": "ES5",
+       // Specify module code generation
+      "module": "system",
+      // Specifies module resolution strategy
+      "moduleResolution": "node",
+      // Generates corresponding '.map' file
+      "sourceMap": true,
+      // Emit design-type metadata for decorated
+      // declarations in source
+      "emitDecoratorMetadata": true,
+      // Enables experimental support for ES7 decorators
+      "experimentalDecorators": true,
+      // Do not emit comments to output
+      "removeComments": false,
+      // Warn on expressions and declarations with an
+      // implied 'any' type
+      "noImplicitAny": false,
+      // Generates corresponding d.ts files
+      "declaration": true
+   },
+   // Points folders and file to exclude
+   "exclude": [
+      "node_modules",
+      "typings/main",
+      "typings/main.d.ts"
+   ]
+}
