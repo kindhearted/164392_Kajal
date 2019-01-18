@@ -1,0 +1,13 @@
+2019-01-18 16:07:59.620  INFO 12004 --- [main] c.e.demo.SpringBootLoggingApplication    : Starting SpringBootLoggingApplication on DIN80042014 with PID 12004 (C:\Users\kkurhade\data\SpringBootLogging\SpringBootLogging\target\classes started by kkurhade in C:\Users\kkurhade\data\SpringBootLogging\SpringBootLogging)
+2019-01-18 16:07:59.622  INFO 12004 --- [main] c.e.demo.SpringBootLoggingApplication    : No active profile set, falling back to default profiles: default
+2019-01-18 16:08:00.343  INFO 12004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3001 (http)
+2019-01-18 16:08:00.361  INFO 12004 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-18 16:08:00.361  INFO 12004 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-18 16:08:00.366  INFO 12004 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;;.;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\nodejs;C:\Users\kkurhade\AppData\Roaming\npm;C:\Users\kkurhade\Downloads\apache-maven-3.6.0\bin;;C:\Users\kkurhade\Desktop\New folder\sts-bundle\sts-3.9.6.RELEASE;;.]
+2019-01-18 16:08:00.483  INFO 12004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-18 16:08:00.483  INFO 12004 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 829 ms
+2019-01-18 16:08:00.679  INFO 12004 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-18 16:08:00.827  INFO 12004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3001 (http) with context path ''
+2019-01-18 16:08:00.829  INFO 12004 --- [main] c.e.demo.SpringBootLoggingApplication    : Started SpringBootLoggingApplication in 1.456 seconds (JVM running for 2.194)
+2019-01-18 16:31:33.382  INFO 12004 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-01-18 16:31:33.384  INFO 12004 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

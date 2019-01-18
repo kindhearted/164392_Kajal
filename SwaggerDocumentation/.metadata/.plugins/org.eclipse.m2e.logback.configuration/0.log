@@ -1,0 +1,18 @@
+2019-01-18 11:55:26,755 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-01-18 11:55:39,433 [Worker-0: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-01-18 11:55:40,747 [Worker-0: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.techprimers.springboot:swagger-example:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\SwaggerDocumentation\spring-boot-swagger-example\pom.xml.
+2019-01-18 11:55:42,673 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-swagger-example/src/main/java
+2019-01-18 11:55:42,688 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-swagger-example/src/main/resources
+2019-01-18 11:55:42,695 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-swagger-example/src/main/resources
+2019-01-18 11:55:42,707 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-swagger-example/src/test/java
+2019-01-18 11:55:43,394 [Worker-0: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2019-01-18 11:55:44,625 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-18 11:55:44,628 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-18 11:55:44,640 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-18 11:55:44,642 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-18 11:55:44,642 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\SwaggerDocumentation\spring-boot-swagger-example\src\test\resources
+2019-01-18 11:55:46,011 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-18 11:55:46,012 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-18 11:55:46,012 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-18 11:55:46,014 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-18 11:55:46,014 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\SwaggerDocumentation\spring-boot-swagger-example\src\test\resources
