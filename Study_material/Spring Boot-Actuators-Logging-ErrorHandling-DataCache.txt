@@ -1,0 +1,15 @@
+Live Reload in Spring Boot App | Spring Boot Dev Tools | Tech Shots
+https://www.youtube.com/watch?v=_3uMgaAncmA
+
+Spring boot actuators tutorial and demo
+
+https://www.youtube.com/watch?v=zCtgl2fRw3c&list=PLQaBzcRBHtnNH2Cjn9w3Dyap4IYookqsb&index=6
+
+Spring Boot Logging Tutorial and Demo
+https://www.youtube.com/watch?v=NHmlH-QKfRA&list=PLQaBzcRBHtnNH2Cjn9w3Dyap4IYookqsb&index=7
+
+Spring Boot Error management Demo
+https://www.youtube.com/watch?v=xQLMRf3tuuI&index=10&list=PLQaBzcRBHtnNH2Cjn9w3Dyap4IYookqsb
+
+Spring Boot Data Cache Demo
+https://www.youtube.com/watch?v=csetfaTA_QU&index=11&list=PLQaBzcRBHtnNH2Cjn9w3Dyap4IYookqsb

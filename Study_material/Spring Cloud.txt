@@ -1,0 +1,15 @@
+Microservices: The Big Picture
+
+https://app.pluralsight.com/library/courses/microservices-big-picture/table-of-contents
+
+Spring Cloud Fundamentals
+
+https://app.pluralsight.com/library/courses/spring-cloud-fundamentals/table-of-contents
+
+---Extra 
+
+Java Microservices with Spring Cloud: Developing Services
+
+https://app.pluralsight.com/library/courses/java-microservices-spring-cloud-developing-services/table-of-contents
+
+

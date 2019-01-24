@@ -1,0 +1,8 @@
+Spring BOOT
+https://www.youtube.com/playlist?list=PLmbC-xnvykcghOSOJ1ZF6ja3aOgZAgaMO
+
+Spring data jpa
+https://app.pluralsight.com/library/courses/spring-data-jpa-getting-started/table-of-contents
+
+Spring Data with REST
+https://app.pluralsight.com/library/courses/spring-data-rest-getting-started/table-of-contents

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="scf-discovery-client"/>
+<aop-project name="scf-discovery-server"/>
+<aop-project name="scf-application-service"/>
+</aop-reference-model>

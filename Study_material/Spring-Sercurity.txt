@@ -1,0 +1,25 @@
+Spring Security Basic
+
+https://www.youtube.com/watch?v=4x-HgnJ31cg
+
+Spring security in Spring Boot with Example
+
+https://www.youtube.com/watch?v=3s2lSD50-JI&t=1283s
+
+
+Spring Security with Mongodb database
+https://www.youtube.com/watch?v=gJSOzcYgcuY
+
+Spring security complete tutorial
+https://www.youtube.com
+
+
+
+/watch?v=ooClE1a2pkA&list=PLGXpHMFOMTTbCC4t6WSoKfVnUxHmyGXKJ
+
+
+[?1/?16/?2019 6:33 PM]  Naik, Sindhu:  
+[?1/?16/?2019 5:49 PM]  Naik, Sindhu:  
+https://github.com/ArpitaBawgi/Pharmacy-Project.git  
+  
+ 

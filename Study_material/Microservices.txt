@@ -1,0 +1,7 @@
+Introduction to Microservices
+
+https://www.youtube.com/watch?v=hVVG3WZgT84&t=13s
+
+How to Design Microservices Architecture? Uber Architecture - A Case Study | Tech Primers
+
+https://www.youtube.com/watch?v=Zed6udTPGro

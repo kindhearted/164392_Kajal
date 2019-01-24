@@ -9,12 +9,12 @@ export class DateComponent implements OnInit {
   message:string;
   randomNumber:number=100;
   constructor() {
-    setInterval(()=>{
+     setInterval(()=>{
     let currentDate=new Date(); 
 
     this.message=currentDate.toDateString()+' '+currentDate.toLocaleTimeString(); 
-   },1000);
-  }
+   });
+   }
 
   ngOnInit() {
   }

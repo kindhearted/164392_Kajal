@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=C\:\\Users\\kkurhade\\git\\scf-routing-hello-service\\.git;C\:\\Users\\kkurhade\\git\\scf-discovery-server\\.git;C\:\\Users\\kkurhade\\git\\scf-gateway-service\\.git;C\:\\Users\\kkurhade\\git\\scf-routing-goodbye-service\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\Users\\kkurhade\\git\\scf-routing-hello-service\\.git;C\:\\Users\\kkurhade\\git\\scf-discovery-server\\.git;C\:\\Users\\kkurhade\\git\\scf-gateway-service\\.git;C\:\\Users\\kkurhade\\git\\scf-routing-goodbye-service\\.git;
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1
