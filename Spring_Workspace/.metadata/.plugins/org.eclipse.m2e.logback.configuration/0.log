@@ -1,0 +1,319 @@
+2019-02-08 10:45:27,071 [Worker-3: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-02-08 10:46:14,141 [Worker-11: Importing Maven projects] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Project HelloWorldMVC already exists
+2019-02-08 10:46:20,367 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: HelloWorldMVC:HelloWorldMVC:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\HelloWorldMVC\pom.xml.
+2019-02-08 10:46:21,291 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SpringFrameworkAOP:AOPDemo:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\AOPDemo\pom.xml.
+2019-02-08 10:46:21,328 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SpringFrameworkAssignment:BankDomain:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\BankDomain\pom.xml.
+2019-02-08 10:46:21,366 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SpringFrameworkAssignment:Customer-address:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\Customer-address\pom.xml.
+2019-02-08 10:46:21,394 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SpringFrameworkAssignment:Employee:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\Employee\pom.xml.
+2019-02-08 10:46:21,420 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SpringFrameworkAssignment:Question-answer:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\Question-answer\pom.xml.
+2019-02-08 10:46:23,789 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: SpringMVCHelloWorld:SpringMVCHelloWorld:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\SpringMVCHelloWorld\pom.xml.
+2019-02-08 10:46:25,706 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: SpringMVCProject:SpringMVCProject:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\SpringMVCProject\pom.xml.
+2019-02-08 10:46:25,782 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SpringMVC:HelloWorld:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\SpringMVC\HelloWorld\pom.xml.
+2019-02-08 10:46:25,931 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MvcHello:MvcHelloController:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\SpringMVC\MvcHello\pom.xml.
+2019-02-08 10:46:26,263 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: SpringMVCHello:SpringMVCHello:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\SpringMVC\SpringMVCHello\pom.xml.
+2019-02-08 10:46:26,311 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: SpringHello:SpringHello:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\SpringMVCProgram\SpringHello\pom.xml.
+2019-02-08 10:46:27,294 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.kajal.springrest:EmployeeManagementSystem:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\SpringREST\EmployeeManagementSystem\pom.xml.
+2019-02-08 10:46:28,102 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.kajal.springrest:HelloWorld_question1:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\SpringREST\HelloWorld_question1\pom.xml.
+2019-02-08 10:46:28,131 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.kajal.springrest:messanger:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\SpringREST\messanger\pom.xml.
+2019-02-08 10:46:28,165 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.kajal.springrest:SimpleHello:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\SpringREST\SimpleHello\pom.xml.
+2019-02-08 10:46:28,193 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.kajal.springrest:UserLogin:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\SpringREST\UserLogin\pom.xml.
+2019-02-08 10:46:28,240 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.kajal.springrest:UserLoginUsingPathparam:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\SpringREST\UserLoginUsingPathparam\pom.xml.
+2019-02-08 10:46:28,268 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.kajal.springrest:UserLogin_question2:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\SpringREST\UserLogin_question2\pom.xml.
+2019-02-08 10:46:28,317 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.kajal.springrest:Zipcode_question3:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\SpringREST\Zipcode_question3\pom.xml.
+2019-02-08 10:46:40,083 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloWorld_question1/src/main/java
+2019-02-08 10:46:40,083 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloWorld_question1/src/main/resources
+2019-02-08 10:46:40,084 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloWorld_question1/src/test/java
+2019-02-08 10:46:40,803 [Worker-2: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MvcHello:MvcHelloController:0.0.1-SNAPSHOT @ C:\Users\kkurhade\data\Spring_Workspace\SpringMVC\MvcHello\pom.xml.
+2019-02-08 10:46:41,290 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserLogin_question2/src/main/java
+2019-02-08 10:46:41,290 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserLogin_question2/src/main/resources
+2019-02-08 10:46:41,291 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserLogin_question2/src/test/java
+2019-02-08 10:46:41,515 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloWorld/src/main/java
+2019-02-08 10:46:41,516 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloWorld/src/test/java
+2019-02-08 10:46:41,552 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Employee/src/main/java
+2019-02-08 10:46:41,552 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Employee/src/test/java
+2019-02-08 10:46:41,634 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringMVCHelloWorld/src
+2019-02-08 10:46:41,636 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /SpringMVCHelloWorld/src/test/java because it overlaps with /SpringMVCHelloWorld/src
+2019-02-08 10:47:02,947 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Question-answer/src/main/java
+2019-02-08 10:47:02,948 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Question-answer/src/test/java
+2019-02-08 10:47:03,006 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AOPDemo/src/main/java
+2019-02-08 10:47:03,006 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AOPDemo/src/test/java
+2019-02-08 10:47:03,078 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloWorldMVC/src
+2019-02-08 10:47:03,080 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /HelloWorldMVC/src/test/java because it overlaps with /HelloWorldMVC/src
+2019-02-08 10:47:03,397 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmployeeManagementSystem/src/main/java
+2019-02-08 10:47:03,397 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeManagementSystem/src/main/resources
+2019-02-08 10:47:03,397 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmployeeManagementSystem/src/test/java
+2019-02-08 10:47:03,702 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringMVCHello/src
+2019-02-08 10:47:03,704 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /SpringMVCHello/src/test/java because it overlaps with /SpringMVCHello/src
+2019-02-08 10:47:03,864 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserLoginUsingPathparam/src/main/java
+2019-02-08 10:47:03,864 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserLoginUsingPathparam/src/main/resources
+2019-02-08 10:47:03,865 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserLoginUsingPathparam/src/test/java
+2019-02-08 10:47:03,995 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringHello/src
+2019-02-08 10:47:03,997 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /SpringHello/src/test/java because it overlaps with /SpringHello/src
+2019-02-08 10:47:04,211 [Worker-11: Importing Maven projects] ERROR o.e.m2e.wtp.WTPProjectConfigurator - Unable to configure SpringHello
+org.eclipse.m2e.wtp.MarkedException: Unable to configure SpringHello
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:99) ~[na:na]
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:68) ~[na:na]
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:508) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:501) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:288) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$1.call(ProjectConfigurationManager.java:175) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$1.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:143) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:68) [org.eclipse.m2e.core.ui_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:73) [org.eclipse.m2e.core.ui_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:77) [org.eclipse.m2e.core.ui_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.100.v20180817-1215.jar:na]
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324) ~[na:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292) ~[org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319) ~[org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339) ~[na:na]
+	at org.eclipse.m2e.wtp.WebProjectConfiguratorDelegate.configure(WebProjectConfiguratorDelegate.java:136) ~[na:na]
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:95) ~[na:na]
+	... 20 common frames omitted
+2019-02-08 10:47:25,681 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserLogin/src/main/java
+2019-02-08 10:47:25,682 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserLogin/src/main/resources
+2019-02-08 10:47:25,682 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserLogin/src/test/java
+2019-02-08 10:47:25,908 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringMVCProject/src
+2019-02-08 10:47:25,910 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /SpringMVCProject/src/test/java because it overlaps with /SpringMVCProject/src
+2019-02-08 10:47:26,009 [Worker-11: Importing Maven projects] ERROR o.e.m2e.wtp.WTPProjectConfigurator - Unable to configure SpringMVCProject
+org.eclipse.m2e.wtp.MarkedException: Unable to configure SpringMVCProject
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:99) ~[na:na]
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:68) ~[na:na]
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:508) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:501) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:288) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$1.call(ProjectConfigurationManager.java:175) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$1.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:143) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:68) [org.eclipse.m2e.core.ui_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:73) [org.eclipse.m2e.core.ui_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:77) [org.eclipse.m2e.core.ui_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.100.v20180817-1215.jar:na]
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324) ~[na:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292) ~[org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319) ~[org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339) ~[na:na]
+	at org.eclipse.m2e.wtp.WebProjectConfiguratorDelegate.configure(WebProjectConfiguratorDelegate.java:136) ~[na:na]
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:95) ~[na:na]
+	... 20 common frames omitted
+2019-02-08 10:47:47,081 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /MvcHelloController/src/main/java because it overlaps with /MvcHelloController/src
+2019-02-08 10:47:47,081 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /MvcHelloController/src/test/java because it overlaps with /MvcHelloController/src
+2019-02-08 10:47:47,408 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /messanger/src/main/java
+2019-02-08 10:47:47,409 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /messanger/src/main/resources
+2019-02-08 10:47:47,409 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /messanger/src/test/java
+2019-02-08 10:47:47,608 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Zipcode_question3/src/main/java
+2019-02-08 10:47:47,608 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Zipcode_question3/src/main/resources
+2019-02-08 10:47:47,609 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Zipcode_question3/src/test/java
+2019-02-08 10:47:47,786 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleHello/src/main/java
+2019-02-08 10:47:47,787 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SimpleHello/src/main/resources
+2019-02-08 10:47:47,787 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleHello/src/test/java
+2019-02-08 10:47:47,897 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BankDomain/src/main/java
+2019-02-08 10:47:47,897 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BankDomain/src/test/java
+2019-02-08 10:47:47,948 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Customer-address/src/main/java
+2019-02-08 10:47:47,949 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Customer-address/src/test/java
+2019-02-08 10:47:47,991 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 21 project(s) in 96 sec
+2019-02-08 10:47:52,028 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:47:52,028 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringMVC\MvcHello\src\main\resources
+2019-02-08 10:47:52,037 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:47:52,037 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringMVC\MvcHello\src\test\resources
+2019-02-08 10:47:56,039 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:47:56,039 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\AOPDemo\src\main\resources
+2019-02-08 10:47:56,039 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:47:56,040 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\AOPDemo\src\test\resources
+2019-02-08 10:47:56,726 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:47:56,726 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\BankDomain\src\main\resources
+2019-02-08 10:47:56,727 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:47:56,727 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\BankDomain\src\test\resources
+2019-02-08 10:47:59,480 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:47:59,480 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\Customer-address\src\main\resources
+2019-02-08 10:47:59,480 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:47:59,480 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\Customer-address\src\test\resources
+2019-02-08 10:47:59,645 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:47:59,645 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\Employee\src\main\resources
+2019-02-08 10:47:59,645 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:47:59,645 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\Employee\src\test\resources
+2019-02-08 10:48:00,095 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:48:00,113 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-08 10:48:00,114 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:48:00,114 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringREST\EmployeeManagementSystem\src\test\resources
+2019-02-08 10:48:00,202 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:48:00,202 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringMVC\HelloWorld\src\main\resources
+2019-02-08 10:48:00,203 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:48:00,203 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringMVC\HelloWorld\src\test\resources
+2019-02-08 10:48:00,334 [Worker-5: Building Project MvcHelloController] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-08 10:48:00,336 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\HelloWorldMVC\src\main\resources
+2019-02-08 10:48:00,338 [Worker-5: Building Project MvcHelloController] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-08 10:48:00,339 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\HelloWorldMVC\src\test\resources
+2019-02-08 10:48:00,483 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:48:00,483 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-08 10:48:00,484 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:48:00,484 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringREST\HelloWorld_question1\src\test\resources
+2019-02-08 10:48:00,714 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:48:00,715 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\Question-answer\src\main\resources
+2019-02-08 10:48:00,715 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:48:00,715 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\Question-answer\src\test\resources
+2019-02-08 10:48:00,851 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:48:00,851 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-08 10:48:00,852 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:48:00,852 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringREST\SimpleHello\src\test\resources
+2019-02-08 10:48:01,040 [Worker-5: Building Project MvcHelloController] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-08 10:48:01,041 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringMVCProgram\SpringHello\src\main\resources
+2019-02-08 10:48:01,042 [Worker-5: Building Project MvcHelloController] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-08 10:48:01,043 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringMVCProgram\SpringHello\src\test\resources
+2019-02-08 10:48:01,152 [Worker-5: Building Project MvcHelloController] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-08 10:48:01,153 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringMVC\SpringMVCHello\src\main\resources
+2019-02-08 10:48:01,154 [Worker-5: Building Project MvcHelloController] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-08 10:48:01,155 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringMVC\SpringMVCHello\src\test\resources
+2019-02-08 10:48:01,270 [Worker-5: Building Project MvcHelloController] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-08 10:48:01,271 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\SpringMVCHelloWorld\src\main\resources
+2019-02-08 10:48:01,271 [Worker-5: Building Project MvcHelloController] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-08 10:48:01,272 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\SpringMVCHelloWorld\src\test\resources
+2019-02-08 10:48:01,347 [Worker-5: Building Project MvcHelloController] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-08 10:48:01,348 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\SpringMVCProject\src\main\resources
+2019-02-08 10:48:01,348 [Worker-5: Building Project MvcHelloController] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-08 10:48:01,349 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\SpringMVCProject\src\test\resources
+2019-02-08 10:48:01,531 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:48:01,532 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-08 10:48:01,533 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:48:01,533 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringREST\UserLogin\src\test\resources
+2019-02-08 10:48:01,639 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:48:01,639 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-08 10:48:01,640 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:48:01,640 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringREST\UserLoginUsingPathparam\src\test\resources
+2019-02-08 10:48:01,784 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:48:01,784 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-08 10:48:01,785 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:48:01,785 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringREST\UserLogin_question2\src\test\resources
+2019-02-08 10:48:01,975 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:48:01,976 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-08 10:48:01,976 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:48:01,976 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringREST\Zipcode_question3\src\test\resources
+2019-02-08 10:48:02,191 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:48:02,191 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-08 10:48:02,192 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:48:02,192 [Worker-5: Building Project MvcHelloController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringREST\messanger\src\test\resources
+2019-02-08 10:50:33,534 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:50:33,534 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringMVC\MvcHello\src\main\resources
+2019-02-08 10:50:33,535 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:50:33,535 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringMVC\MvcHello\src\test\resources
+2019-02-08 10:50:34,784 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cg.project:shopingcart:0.0.1-SNAPSHOT @ C:\Users\kkurhade\shopingcart\pom.xml.
+2019-02-08 10:50:34,784 [Worker-3: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cg.project:shopingcart:0.0.1-SNAPSHOT @ C:\Users\kkurhade\shopingcart\pom.xml.
+2019-02-08 10:50:36,233 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:50:36,233 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\shopingcart\src\main\resources
+2019-02-08 10:50:36,235 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:50:36,235 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\shopingcart\src\test\resources
+2019-02-08 10:50:38,065 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cg.project:shopingcart:0.0.1-SNAPSHOT @ C:\Users\kkurhade\shopingcart\pom.xml.
+2019-02-08 10:50:38,891 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:50:38,891 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\shopingcart\src\main\resources
+2019-02-08 10:50:38,892 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:50:38,892 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\shopingcart\src\test\resources
+2019-02-08 10:51:06,064 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,064 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\AOPDemo\src\main\resources
+2019-02-08 10:51:06,065 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,065 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\AOPDemo\src\test\resources
+2019-02-08 10:51:06,109 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,109 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\BankDomain\src\main\resources
+2019-02-08 10:51:06,110 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,110 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\BankDomain\src\test\resources
+2019-02-08 10:51:06,129 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,129 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\Customer-address\src\main\resources
+2019-02-08 10:51:06,130 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,130 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\Customer-address\src\test\resources
+2019-02-08 10:51:06,149 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,149 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\Employee\src\main\resources
+2019-02-08 10:51:06,150 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,150 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\Employee\src\test\resources
+2019-02-08 10:51:06,415 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,416 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-08 10:51:06,416 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,417 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringREST\EmployeeManagementSystem\src\test\resources
+2019-02-08 10:51:06,430 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,430 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringMVC\HelloWorld\src\main\resources
+2019-02-08 10:51:06,430 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,430 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringMVC\HelloWorld\src\test\resources
+2019-02-08 10:51:06,494 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-08 10:51:06,496 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\HelloWorldMVC\src\main\resources
+2019-02-08 10:51:06,496 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-08 10:51:06,497 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\HelloWorldMVC\src\test\resources
+2019-02-08 10:51:06,559 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,559 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-08 10:51:06,560 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,560 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringREST\HelloWorld_question1\src\test\resources
+2019-02-08 10:51:06,628 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,628 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringMVC\MvcHello\src\main\resources
+2019-02-08 10:51:06,628 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,628 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringMVC\MvcHello\src\test\resources
+2019-02-08 10:51:06,647 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,647 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\Question-answer\src\main\resources
+2019-02-08 10:51:06,647 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,648 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\Question-answer\src\test\resources
+2019-02-08 10:51:06,701 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,701 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-08 10:51:06,702 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,702 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringREST\SimpleHello\src\test\resources
+2019-02-08 10:51:06,761 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-08 10:51:06,762 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringMVCProgram\SpringHello\src\main\resources
+2019-02-08 10:51:06,763 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-08 10:51:06,763 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringMVCProgram\SpringHello\src\test\resources
+2019-02-08 10:51:06,797 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-08 10:51:06,798 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringMVC\SpringMVCHello\src\main\resources
+2019-02-08 10:51:06,798 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-08 10:51:06,799 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringMVC\SpringMVCHello\src\test\resources
+2019-02-08 10:51:06,866 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-08 10:51:06,867 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\SpringMVCHelloWorld\src\main\resources
+2019-02-08 10:51:06,868 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-08 10:51:06,869 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\SpringMVCHelloWorld\src\test\resources
+2019-02-08 10:51:06,900 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-08 10:51:06,901 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\SpringMVCProject\src\main\resources
+2019-02-08 10:51:06,902 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-08 10:51:06,903 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringFramework\SpringMVCProject\src\test\resources
+2019-02-08 10:51:06,972 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,972 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-08 10:51:06,973 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:06,973 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringREST\UserLogin\src\test\resources
+2019-02-08 10:51:07,051 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:07,051 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-08 10:51:07,052 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:07,052 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringREST\UserLoginUsingPathparam\src\test\resources
+2019-02-08 10:51:07,105 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:07,105 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-08 10:51:07,106 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:07,106 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringREST\UserLogin_question2\src\test\resources
+2019-02-08 10:51:07,216 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:07,216 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-08 10:51:07,216 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:07,217 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringREST\Zipcode_question3\src\test\resources
+2019-02-08 10:51:07,275 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:07,275 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-02-08 10:51:07,275 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:07,275 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\data\Spring_Workspace\SpringREST\messanger\src\test\resources
+2019-02-08 10:51:07,673 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:07,673 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\shopingcart\src\main\resources
+2019-02-08 10:51:07,674 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-08 10:51:07,674 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkurhade\shopingcart\src\test\resources

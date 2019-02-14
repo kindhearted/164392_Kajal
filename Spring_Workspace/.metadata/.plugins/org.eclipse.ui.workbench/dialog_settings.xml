@@ -12,4 +12,14 @@
 		<list key="textArray">
 		</list>
 	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.e4.ui.importer.wizard" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.egit.ui.internal.clone.gitclonecategory"/>
+			<item value="org.eclipse.jst.j2ee.internal"/>
+			<item value="org.eclipse.m2e"/>
+			<item value="org.eclipse.mylyn.tasks.ui.wizards.import.category"/>
+		</list>
+	</section>
 </section>
